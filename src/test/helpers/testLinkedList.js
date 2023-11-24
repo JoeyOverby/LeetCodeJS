@@ -1,7 +1,8 @@
 import { arrayToLinkedList } from '../../helpers/linkedList.js';
+import { prettyPrint } from '../../helpers/objects.js';
 
-var arrayForLinkedList = [1,2,3];
+var arrayForLinkedList = [1, 2, 3];
 
 var linkedList = arrayToLinkedList(arrayForLinkedList);
 
-console.log(JSON.stringify(linkedList, null, 2));
+prettyPrint(linkedList);

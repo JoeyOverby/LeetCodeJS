@@ -7,11 +7,9 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "program": "${file}"
+            "name": "Debug testLinkedList",
+            "skipFiles": ["<node_internals>/**"],
+            "program": "${workspaceFolder}/src/test/helpers/testLinkedList.js"
         }
     ]
 }
