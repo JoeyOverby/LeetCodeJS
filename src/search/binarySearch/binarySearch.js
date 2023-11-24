@@ -1,8 +1,8 @@
 /*
-Runtime: 74ms
-Beats 6.87%
+Runtime: 59ms
+Beats 34.39%
 
-Memory: 49.51MB
+Memory: 45.70MB
 Beats 5.78%
 
 */
